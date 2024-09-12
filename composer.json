@@ -1,0 +1,21 @@
+{
+    "name": "leidy/crud",
+    "description": "composer phpmailer",
+    "type": "project",
+    "license": "sena",
+    "autoload": {
+        "psr-4": {
+            "Leidy\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gercode",
+            "email": "gerlemx10@hotmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
